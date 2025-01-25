@@ -1,0 +1,77 @@
+.homepage {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .hero {
+    margin-bottom: 30px;
+  }
+  
+  .hero-card {
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .hero-card mat-card-header {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .hero-card .shop-now-btn {
+    margin-top: 20px;
+  }
+  
+  .categories, .featured-products, .promotions, .testimonials {
+    margin: 30px 0;
+    text-align: center;
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .category-card {
+    width: 100%;
+  }
+  
+  .featured-products mat-grid-list {
+    margin-top: 20px;
+  }
+  
+  .promotion-card {
+    background-color: #ffc107;
+  }
+  
+  .promotion-btn {
+    margin-top: 20px;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial-card {
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+    margin-top: 30px;
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+  }
+  
+  .spacer {
+    flex-grow: 1;
+  }
+  
